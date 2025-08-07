@@ -146,13 +146,13 @@
         <StackPanel>
             <Grid Width="770" VerticalAlignment="Top" Margin="0">
                 <Grid.Background>
-                    <ImageBrush ImageSource="Images\StanfordMedicine1.png"  Stretch="Uniform" AlignmentY="Top" Opacity="0.25">
+                    <ImageBrush ImageSource="Images\hci-u.png"  Stretch="Uniform" AlignmentY="Top" Opacity="0.25">
                         <ImageBrush.Transform>
                             <TransformGroup>
-                                <ScaleTransform ScaleX="0.9" ScaleY="0.9"/>
+                                <ScaleTransform ScaleX="1" ScaleY="1"/>
                                 <SkewTransform/>
                                 <RotateTransform/>
-                                <TranslateTransform Y="20" X="30"/>
+                                <TranslateTransform Y="5" X="10"/>
                             </TransformGroup>
                         </ImageBrush.Transform>
                     </ImageBrush>

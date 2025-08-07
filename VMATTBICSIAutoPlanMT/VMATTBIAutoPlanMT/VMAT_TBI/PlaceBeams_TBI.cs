@@ -341,12 +341,12 @@ namespace VMATTBIAutoPlanMT.VMAT_TBI
                     ProvideUIUpdate("Couch surface structure retrieved");
                     ProvideUIUpdate($"User origin to Table Top distance: {TT:0.0} cm");
 
-                    // if couch vertical is greater than 17.5 then assign vertical of 17.5 cm
-                    if (TT > 17.5)
+                    // if couch vertical is greater than 20 then assign vertical of 20 cm
+                    if (TT > 20)
                     {
-                        ProvideUIUpdate($"Couch vertical ({TT:0.0} cm) is > 17.5 cm!");
-                        ProvideUIUpdate($"Overriding Ant-Post iso placement to achieve a couch vertical of 17.5 cm!");
-                        offsetY = (TT - 17.5) * 10;
+                        ProvideUIUpdate($"Couch vertical ({TT:0.0} cm) is > 20 cm!");
+                        ProvideUIUpdate($"Overriding Ant-Post iso placement to achieve a couch vertical of 20 cm!");
+                        offsetY = (TT - 20) * 10;
                         ProvideUIUpdate($"Required Y position offset = {offsetY / 10.0:0.0} cm");
                     }
                 }

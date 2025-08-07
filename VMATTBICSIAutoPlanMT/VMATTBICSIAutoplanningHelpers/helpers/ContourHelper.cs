@@ -479,8 +479,8 @@ namespace VMATTBICSIAutoPlanningHelpers.Helpers
             Structure newStructure = null;
             string id = theStructure.Id;
             string dicomType = theStructure.DicomType;
-            if (selectedSS.CanRemoveStructure(theStructure))
-            {
+            ///if (selectedSS.CanRemoveStructure(theStructure))
+            ///{
                 selectedSS.RemoveStructure(theStructure);
                 if (selectedSS.CanAddStructure(dicomType, id))
                 {
@@ -492,12 +492,12 @@ namespace VMATTBICSIAutoPlanningHelpers.Helpers
                     ProvideUIUpdate(0,$"Could not re-add structure: {id}. Exiting", true);
                     return (true, newStructure);
                 }
-            }
-            else
-            {
-                ProvideUIUpdate(0,$"Could not remove structure: {id}. Exiting", true);
-                return (true, newStructure);
-            }
+            //}
+            //else
+            //{
+            //    ProvideUIUpdate(0,$"Could not remove structure: {id}. Exiting", true);
+            //    return (true, newStructure);
+            //}
             return (false, newStructure);
         }
 

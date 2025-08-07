@@ -161,6 +161,9 @@
   <ItemGroup>
     <Resource Include="optLoop.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\hci-u.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>if NOT EXIST "$(ProjectDir)$(OutDir)\configuration\" (

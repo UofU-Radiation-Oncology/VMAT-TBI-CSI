@@ -144,13 +144,13 @@
     </Window.Resources>
     <Grid Width="720">
         <Grid.Background>
-            <ImageBrush ImageSource="/Images/StanfordMedicine1.png" Stretch="Uniform" AlignmentY="Top" Opacity="0.20">
+            <ImageBrush ImageSource="/Images/hci-u.png" Stretch="Uniform" AlignmentY="Top" Opacity="0.20">
                 <ImageBrush.Transform>
                     <TransformGroup>
-                        <ScaleTransform ScaleX="0.3" ScaleY="0.3"/>
+                        <ScaleTransform ScaleX="0.75" ScaleY="0.75"/>
                         <SkewTransform/>
                         <RotateTransform/>
-                        <TranslateTransform Y="0" X="255"/>
+                        <TranslateTransform Y="0" X="90"/>
                     </TransformGroup>
                 </ImageBrush.Transform>
             </ImageBrush>
