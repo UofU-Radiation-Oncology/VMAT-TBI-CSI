@@ -10,6 +10,10 @@ using System.Runtime.ExceptionServices;
 using System.Text;
 using VMATTBICSIAutoPlanningHelpers.Models;
 
+/// <summary>
+///  NN working now test
+/// </summary>
+
 namespace VMATCSIAutoPlanMT.VMAT_CSI
 {
     public class PlaceBeams_CSI : PlaceBeamsBase
